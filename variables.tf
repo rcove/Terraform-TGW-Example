@@ -1,14 +1,14 @@
 variable "aws_region" {
   description = "AWS region to launch servers."
-  default     = "us-east-2"
+  default     = "us-west-2"
 }
 variable "primary_az" {
   description = "primary AZ"
-  default     = "us-east-2a"
+  default     = "us-west-2a"
 }
 variable "secondary_az" {
   description = "secondary AZ"
-  default     = "us-east-2b"
+  default     = "us-west-2b"
 }
 
 # Ubuntu Image
